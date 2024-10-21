@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    background-color:  rgb(50, 163, 255);
+}
+nav img{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border: 2px solid crimson;
+    border-radius: 50%;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+}
+img {
+    width: 360px;
+    height: 450px;
+    border: 3px solid crimson;
+    border-radius: 10px;
+    transition: 1s;
+    background-color: 0;
+}
+
+.Sir1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+.Sir2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+
+.Sir3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+.Sir4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    gap: 100px;
+}
+
+.Sir5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    gap: 100px;
+}
+
+.Sir6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 100px;
+}
+.Sir1 img:hover{
+    scale: 1;
+    width: 400px;
+    height: 500px;
+    transition: 1s;
+}
+
+.Sir2 img:hover{
+    scale: 1;
+    width: 400px;
+    height: 500px;
+    transition: 1s;
+}
+
+.Sir3 img:hover{
+    scale: 1;
+    width: 400px;
+    height: 500px;
+    transition: 1s;
+}
+
+.Sir4 img:hover{
+    scale: 1;
+    width: 400px;
+    height: 500px;
+    transition: 1s;
+}
+
+.Sir5 img:hover{
+    scale: 1;
+    width: 400px;
+    height: 500px;
+    transition: 1s;
+}
+
+.Sir6 img:hover{
+    scale: 1;
+    width: 400px;
+    height: 500px;
+    transition: 1s;
+}
+
+.Sir7 img:hover{
+    scale: 1;
+    width: 400px;
+    height: 500px;
+    transition: 1s;
+}
+
+footer h4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+footer{
+        width: 100%;
+        height: 200px;
+        color: white;
+        background-color: rgb(50, 163, 255); 
+        text-align: start;
+        padding-top: 10px;
+        padding-left: 100px;
+}
+footer a{
+    color: rgb(0, 0, 255);
+}
+
+@media (max-width: 1024px) {
+    .Sir1{
+        display: flex;
+    }
+    .Sir2{
+        display: flex;
+    }
+    .Sir3{
+        display: flex;
+    }
+    .Sir4{
+        display: flex;
+    }
+    .Sir5{
+        display: flex;
+    }
+    .Sir6{
+        display: flex;
+    }
+    .Sir7{
+        display: flex;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+    }
+    h1{
+        size: 17px;
+    }
+  }
+
+@media (max-width: 855px) {
+    .Sir1{
+        display: block;
+    }
+    .Sir2{
+        display: block;
+    }
+    .Sir3{
+        display: block;
+    }
+    .Sir4{
+        display: block;
+    }
+    .Sir5{
+        display: block;
+    }
+    .Sir6{
+        display: block;
+    }
+    .Sir7{
+        display: block;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    h1{
+        size: 17px;
+    }
+  }
+
+
+  @media (max-width: 768px) {
+    .Sir1{
+        display: block;
+    }
+    .Sir2{
+        display: block;
+    }
+    .Sir3{
+        display: block;
+    }
+    .Sir4{
+        display: block;
+    }
+    .Sir5{
+        display: block;
+    }
+    .Sir6{
+        display: block;
+    }
+    .Sir7{
+        display: block;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+    }
+    h1{
+        size: 17px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .Sir1{
+        display: block;
+    }
+    .Sir2{
+        display: block;
+    }
+    .Sir3{
+        display: block;
+    }
+    .Sir4{
+        display: block;
+    }
+    .Sir5{
+        display: block;
+    }
+    .Sir6{
+        display: block;
+    }
+    .Sir7{
+        display: block;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+    }
+    h1{
+        size: 17px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .Sir1{
+        display: block;
+    }
+    .Sir2{
+        display: block;
+    }
+    .Sir3{
+        display: block;
+    }
+    .Sir4{
+        display: block;
+    }
+    .Sir5{
+        display: block;
+    }
+    .Sir6{
+        display: block;
+    }
+    .Sir7{
+        display: block;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+    }
+    h1{
+        size: 17px;
+    }
+  }
+
+  
+  @media (max-width: 200px) {
+    .Sir1{
+        display: block;
+    }
+    .Sir2{
+        display: block;
+    }
+    .Sir3{
+        display: block;
+    }
+    .Sir4{
+        display: block;
+    }
+    .Sir5{
+        display: block;
+    }
+    .Sir6{
+        display: block;
+    }
+    .Sir7{
+        display: block;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        text-align: center;
+    }
+    h1{
+        size: 17px;
+    }
+  }
